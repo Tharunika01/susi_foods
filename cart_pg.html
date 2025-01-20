@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Susi Cart</title>
+    <link rel="stylesheet" href="menu_pg.css">
+</head>
+<body>
+    <div class="menu-page">
+        <div class="menu1">
+            <div class="menu">
+                <img src="Icons\logo.svg" alt="susi" onclick="homeHandle()"/>
+                <img src="Icons\home.svg" alt="home" onclick="homeHandle()"/>
+                <img src="Icons\menu.svg" alt="menu" onclick="handleMenu()"/>
+                <img src="Icons\cart.svg" alt="cart" onclick="cartHandle()"/>
+                <img src="Icons\location.svg" alt="location"/>
+                <img src="Icons\exit.svg" alt="exit"/>
+            </div>
+        </div>
+        <div class="menu2">
+            <div class="menu-container">
+                <p style="font-size: 50px; margin: 0;">CART</p>
+            </div>
+            <div class="menu-card-container">
+                <div class="cart-container">
+
+                </div>
+                <div class="cart-container-total">
+                    <h3>Your Subtotal</h3>
+                    <div style="display: flex; justify-content: space-between;">
+                        <p>Subtotal</p>
+                        <p class="total-price" style="font-size: 20px; font-weight: 600;"></p>
+                        
+                    </div>
+                    <button onclick="confirm()">Confirm Order</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="cart_pg.js"></script>
+</html>

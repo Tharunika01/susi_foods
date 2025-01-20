@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+.landing {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("Images/restaurant.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.landing-text {
+    margin: 0;
+}
+
+.text-head{
+    font-size: 60px;
+    color: #fff;
+}
+
+.text-desc{
+    font-size: 25px;
+    color: #fff;
+}
+
+.landing-button{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+button{
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 21px 72px;
+    font-size: 25px;
+}
